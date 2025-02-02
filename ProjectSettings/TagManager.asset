@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Energia
+  - Inimigo
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Plataformas
+  - Fundo
+  - InteracaoComPlayer
+  - SemInteracaoComPlayer
+  - Inimigos
+  - Bala
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Cenario Fundo
+    uniqueID: 3624756041
+    locked: 0
+  - name: Cenario Escuro
+    uniqueID: 4091531735
+    locked: 0
+  - name: Objetos
+    uniqueID: 802175529
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: HUD
+    uniqueID: 2413575909
+    locked: 0
+  m_RenderingLayers:
+  - Default
