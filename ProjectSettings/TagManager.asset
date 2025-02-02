@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Energia
   - Inimigo
+  - Win
   layers:
   - Default
   - TransparentFX

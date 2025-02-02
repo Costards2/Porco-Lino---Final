@@ -77,6 +77,7 @@ public class PlayerScript : MonoBehaviour
     public bool CarregandoCena;
 
     private bool Win;
+    public GameObject HUD;
 
     // Start is called before the first frame update
     public void Start()
@@ -432,12 +433,16 @@ public class PlayerScript : MonoBehaviour
         if(collision.tag == "Win")
         {
             Win = true;
-            Winning();
+            PlayerRigidbody.linearVelocity = Vector3.zero;
+            collision.gameObject.SetActive(false);
+            PlayerAnimator.SetTrigger("Win");
         }
     }
 
     void Winning()
     {
-        SceneManager.LoadScene("Inicio");
+        Win = false;
+        PlayerAnimator.SetInteger("IDAnimacao", 0);
+        SceneManager.LoadScene("PorcoLino");
     }
 }

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1767554203146753068}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2899532222281329390}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 'Left '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 1095038061717315409}
   - component: {fileID: 7643039449000673588}
   - component: {fileID: 8939291768599588231}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 'Bird '
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -213,7 +213,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.13777709, y: -0.20097429}
+  m_Offset: {x: 0.115225315, y: -0.039445043}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -223,7 +223,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.6996379, y: 1.1407714}
+  m_Size: {x: 1.2335625, y: 0.8177128}
   m_EdgeRadius: 0
 --- !u!61 &2611622744599698046
 BoxCollider2D:
@@ -259,7 +259,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.11474228, y: 0.45031613}
+  m_Offset: {x: 0.11474228, y: 0.41556248}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -269,7 +269,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5246735, y: 0.17202806}
+  m_Size: {x: 1.5246735, y: 0.24153537}
   m_EdgeRadius: 0
 --- !u!50 &1095038061717315409
 Rigidbody2D:
