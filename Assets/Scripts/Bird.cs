@@ -95,7 +95,9 @@ public class Bird : MonoBehaviour
             colliderBird.enabled = false;
             trigger.enabled = false;
 
-            collision.GetComponent<Rigidbody2D>().AddForce(new Vector2(collision.GetComponent<Rigidbody2D>().linearVelocityX, 10f), ForceMode2D.Impulse);
+            collision.GetComponent<Rigidbody2D>().linearVelocityY = 0;
+
+            collision.GetComponent<Rigidbody2D>().AddForce(new Vector2(collision.GetComponent<Rigidbody2D>().linearVelocityX, 6f), ForceMode2D.Impulse);
 
             currentState = EnemyState.Dead;
 
